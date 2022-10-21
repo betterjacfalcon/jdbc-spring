@@ -7,8 +7,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Savepoint;
 
-import org.h2.jdbc.JdbcSavepoint;
-
 public class Transtation {
 
 	public static void main(String[] args) throws SQLException {

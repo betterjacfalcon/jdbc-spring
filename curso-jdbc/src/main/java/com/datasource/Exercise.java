@@ -11,7 +11,6 @@ public class Exercise {
 	private static final int NEW_CONNECTIONS = 10000;
 
 	public static void main(String[] args) throws SQLException {
-		//JdbcConnectionPool  connectionPool = JdbcConnectionPool.create("jdbc:h2:~/test", "postgres", "admin");
 		HikariConfig config = new HikariConfig();
 		config.setJdbcUrl("jdbc:postgresql://localhost:5432/cure_illness");
 		config.setUsername("postgres");
