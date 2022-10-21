@@ -3,7 +3,6 @@ package com.datasource;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-import org.h2.jdbcx.JdbcDataSource;
 import org.postgresql.ds.PGSimpleDataSource;
 
 public class DatasourceTest {
